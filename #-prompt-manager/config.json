@@ -1,0 +1,42 @@
+{
+  "version": 20260706175100,
+  "sites": [
+    {
+      "domain": "chatgpt.com",
+      "name": "ChatGPT",
+      "inputSelector": "#prompt-textarea",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "domain": "gemini.google.com",
+      "name": "Gemini",
+      "inputSelector": "div[role='textbox'][contenteditable='true'][aria-label='为 Gemini 输入提示']",
+      "url": "https://gemini.google.com/app"
+    },
+    {
+      "domain": "claude.ai",
+      "name": "Claude",
+      "inputSelector": "div[data-testid='chat-input'][role='textbox'][contenteditable='true']",
+      "url": "https://claude.ai/new"
+    },
+
+    {
+      "domain": "doubao.com",
+      "name": "Doubao",
+      "inputSelector": "textarea[placeholder='发消息或按住空格说话...']",
+      "url": "https://www.doubao.com/chat/"
+    },
+    {
+      "domain": "deepseek.com",
+      "name": "DeepSeek",
+      "inputSelector": "textarea[placeholder='给 DeepSeek 发送消息 ']",
+      "url": "https://chat.deepseek.com/"
+    },
+    {
+      "domain": "kimi.com",
+      "name": "Kimi",
+      "inputSelector": "div[role='textbox']",
+      "url": "https://www.kimi.com/"
+    }
+  ]
+}
